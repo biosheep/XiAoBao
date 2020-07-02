@@ -6,7 +6,6 @@ public class PlayerControl : MonoBehaviour
 {
     public float maxHp = 100.0f;
     public float currentHp = 10.0f;
-    public float Money ;
     private void Awake() 
     {
         currentHp =maxHp;          
